@@ -17,7 +17,7 @@ function onErrorHandler(error, request, response) {
 
 const controller = {
   errorHandlers: {
-    onNomatch: onNoMatchHandler,
+    onNoMatch: onNoMatchHandler,
     onError: onErrorHandler,
   },
 };
